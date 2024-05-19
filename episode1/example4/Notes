@@ -1,0 +1,12 @@
+Things Learnt:
+    1.How to add siblings
+    In example 3, we have seen how to create a nested html structure in React.
+        In this example, we will see how to add siblings element.
+        e.g.
+        <div id = "parent">
+            <div id = "child">
+                <h1>I'm h1 tag</h1>
+                <h2>I'm h2 tag</h2>
+            </div>
+        </div>
+        How will I create such structure

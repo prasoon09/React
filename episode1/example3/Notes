@@ -1,0 +1,13 @@
+Things learnt:
+    1.How to create nested element in React.
+        In example 2, we have seen how to create a simple html tag (header tag) in React.
+        In this example, we will see how to create a nested element.
+        e.g.
+        <div id = "parent">
+            <div id = "child">
+                <h1>I'm h1 tag</h1>
+            </div>
+        </div>
+        How will I create such structure
+
+    2.crossorigin attributes:https://www.w3schools.com/tags/att_script_crossorigin.asp#:~:text=The%20crossorigin%20attribute%20sets%20the,or%20scripts)%20from%20another%20domain.

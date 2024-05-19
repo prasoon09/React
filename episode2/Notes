@@ -1,0 +1,13 @@
+Things learnt:
+
+    1.scaffolding:
+    2.npm is not node package manager. It manages package but is not a package manager.
+      any package you need to use, you can use npm. All the packages are hosted there.
+      what kind of packages. All the libraries that you use, all the utilities you need comes from npm.
+    4.npm is a standard repository for all the packages. npm is the greatest package manager
+    5. when you create a craeate react app, it already have npm. you don't have to do anything. 
+      it's   already configured.
+    6.how to add npm into our project.(npm init)
+    7.npm init creates package.json.
+    8.package.json is configuration for npm into your project
+    
