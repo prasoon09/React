@@ -9,5 +9,27 @@ Things learnt:
       it's   already configured.
     6.how to add npm into our project.(npm init)
     7.npm init creates package.json.
-    8.package.json is configuration for npm into your project
-    
+    8.package.json is configuration for npm into your project. It contain details like dependencies on other projects, version etc.
+      with this we can get packages/dependencies into our project.
+    9. bundler is the foremost important dependency. https://www.youtube.com/watch?v=3UWlufSzO4k
+    10. How to configure and ignite our app using parcel bundler
+    11. There exist different bundlers out there. They all do the same task. But they differ in the algorithm they use.
+    12. There are two types of dependencies/packages an app can have(we can install in an app)
+          a. Dev dependencies: These dependecies are generally required in development phase(when we are developing the app)
+          b. Normal dependencies: These dependencies are used in production also.
+    13. npm install -D parcel : This command tells npm that we want parcel as dev dependency, not a normal dependency
+    14. Difference between caret(^) and tilde(~) in package.json: 
+        when there is a minor upgrade, in case of caret, parcel will automatically upgrade to that version whereas in case of tilde, 
+        it will automatically upgrade in case of upgrade to major version. It is always safe to use caret
+        because it's ok to upgrade to minor version whereas upgrade to major version may lead to breakup of your app
+        https://www.geeksforgeeks.org/difference-between-tilde-and-caret-in-package-json/
+    15. what is package-lock.json? when it is created? 
+        It is created along with package.json, and it seems to be modified along with package.json
+        e.g.  npm init => created package.json and package-lock.json
+              npm install -D parcel => modified package.json and package-lock.json
+
+
+
+
+
+    https://medium.com/@nikhildhariwal2004/parcel-is-a-beast-an-all-in-one-bundle-for-powerful-web-development-e79f8a70cbd6
